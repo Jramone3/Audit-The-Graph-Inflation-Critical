@@ -1,0 +1,226 @@
+./poc_bridge_inflation.py:3:# TODO: Implementar consulta web3 al contrato 0x296Ebf81430eA5561143B4b15B17CC3C549e2a53
+./poc_bridge_inflation.py:8:    # TODO: Reemplazar con lógica de consulta real a través de RPC
+./lib/forge-std/scripts/vm.py:71:        # TODO: Custom errors were introduced in 0.8.4
+./contracts/scripts/check-todos.mjs:3: * Check for TODO comments in Solidity files.
+./contracts/scripts/check-todos.mjs:13:// Pattern to match TODO comments in Solidity
+./contracts/scripts/check-todos.mjs:14:// Matches TODO, FIXME, XXX, HACK in both single-line and multi-line comments
+./contracts/scripts/check-todos.mjs:18: * Find TODO comments in a Solidity file.
+./contracts/scripts/check-todos.mjs:20: * @returns {Array<{lineNumber: number, lineContent: string}>} Array of TODO matches
+./contracts/scripts/check-todos.mjs:87:      console.log('✅ No locally changed or untracked Solidity files to check for TODO comments.')
+./contracts/scripts/check-todos.mjs:93:    console.log('✅ No files to check for TODO comments.')
+./contracts/scripts/check-todos.mjs:116:        console.log('❌ TODO comments found in Solidity files:')
+./contracts/scripts/check-todos.mjs:137:    `${icon} Found ${totalTodos} TODO comment(s) in ${filesWithTodos}/${filesChecked} ${fileType} Solidity file(s).`,
+./contracts/scripts/verify-solhint-disables.test.mjs:30:// Test 1: File with only pre-TODO disables
+./contracts/scripts/verify-solhint-disables.test.mjs:39:if (assertArrayEquals(result1.preTodoRules, ['one-contract-per-file'], 'Test 1: Pre-TODO only')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:44:if (assertArrayEquals(result1.todoRules, [], 'Test 1: No TODO rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:55:// Test 2: File with only TODO section disables
+./contracts/scripts/verify-solhint-disables.test.mjs:60:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:66:if (assertArrayEquals(result2.preTodoRules, [], 'Test 2: No pre-TODO rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:71:if (assertArrayEquals(result2.todoRules, ['gas-indexed-events'], 'Test 2: TODO section rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:82:// Test 3: File with both pre-TODO and TODO section disables
+./contracts/scripts/verify-solhint-disables.test.mjs:88:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:97:if (assertArrayEquals(result3.preTodoRules, ['one-contract-per-file'], 'Test 3: Pre-TODO rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:103:  assertArrayEquals(result3.todoRules, ['gas-indexed-events', 'named-parameters-mapping'], 'Test 3: TODO section rules')
+./contracts/scripts/verify-solhint-disables.test.mjs:121:// Test 4: Multiple pre-TODO disables on separate lines
+./contracts/scripts/verify-solhint-disables.test.mjs:135:    'Test 4: Multiple pre-TODO rules',
+./contracts/scripts/verify-solhint-disables.test.mjs:148:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:186:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:194:if (assertArrayEquals(result7.preTodoRules, ['one-contract-per-file'], 'Test 7 (Real): Pre-TODO rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:199:if (assertArrayEquals(result7.todoRules, ['named-parameters-mapping'], 'Test 7 (Real): TODO rules')) {
+./contracts/scripts/verify-solhint-disables.test.mjs:212:// Test 8: File with disables after TODO section (edge case)
+./contracts/scripts/verify-solhint-disables.test.mjs:217:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:231:    'Test 8: Disables after TODO section collected',
+./contracts/scripts/verify-solhint-disables.test.mjs:244:// Fix Test 1: Remove unnecessary rule from pre-TODO disable
+./contracts/scripts/verify-solhint-disables.test.mjs:267:  console.log('✅ Fix Test 1: Remove unnecessary pre-TODO rule')
+./contracts/scripts/verify-solhint-disables.test.mjs:270:  console.log('❌ Fix Test 1: Remove unnecessary pre-TODO rule')
+./contracts/scripts/verify-solhint-disables.test.mjs:276:// Fix Test 2: Remove all pre-TODO disables when none needed
+./contracts/scripts/verify-solhint-disables.test.mjs:293:  console.log('✅ Fix Test 2: Remove all pre-TODO disables when none needed')
+./contracts/scripts/verify-solhint-disables.test.mjs:296:  console.log('❌ Fix Test 2: Remove all pre-TODO disables when none needed')
+./contracts/scripts/verify-solhint-disables.test.mjs:300:// Fix Test 3: Add TODO section when new rules needed
+./contracts/scripts/verify-solhint-disables.test.mjs:311:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:318:  console.log('✅ Fix Test 3: Add TODO section when new rules needed')
+./contracts/scripts/verify-solhint-disables.test.mjs:321:  console.log('❌ Fix Test 3: Add TODO section when new rules needed')
+./contracts/scripts/verify-solhint-disables.test.mjs:327:// Fix Test 4: Keep pre-TODO, add TODO section for additional rules
+./contracts/scripts/verify-solhint-disables.test.mjs:343:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:355:  console.log('✅ Fix Test 4: Keep pre-TODO, add TODO for additional rules')
+./contracts/scripts/verify-solhint-disables.test.mjs:358:  console.log('❌ Fix Test 4: Keep pre-TODO, add TODO for additional rules')
+./contracts/scripts/verify-solhint-disables.test.mjs:364:// Fix Test 5: Remove unnecessary TODO section
+./contracts/scripts/verify-solhint-disables.test.mjs:369:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.test.mjs:382:  console.log('✅ Fix Test 5: Remove unnecessary TODO section')
+./contracts/scripts/verify-solhint-disables.test.mjs:385:  console.log('❌ Fix Test 5: Remove unnecessary TODO section')
+./contracts/scripts/verify-solhint-disables.mjs:17: * 1. **Pre-TODO disables**: Rules that appear before the TODO section (or at the top if no TODO).
+./contracts/scripts/verify-solhint-disables.mjs:19: *    storage contracts) and should NOT be moved into the TODO section.
+./contracts/scripts/verify-solhint-disables.mjs:21: * 2. **TODO section disables**: Rules that appear within the TODO section (after the
+./contracts/scripts/verify-solhint-disables.mjs:22: *    "TODO: Re-enable and fix issues" comment). These are temporary and should be
+./contracts/scripts/verify-solhint-disables.mjs:26: * category each set belongs to so the fix function can preserve pre-TODO disables.
+./contracts/scripts/verify-solhint-disables.mjs:29: *   // solhint-disable one-contract-per-file          <- Pre-TODO (permanent)
+./contracts/scripts/verify-solhint-disables.mjs:31: *   // TODO: Re-enable and fix issues when publishing a new version
+./contracts/scripts/verify-solhint-disables.mjs:32: *   // solhint-disable gas-indexed-events             <- TODO section (temporary)
+./contracts/scripts/verify-solhint-disables.mjs:33: *   // solhint-disable named-parameters-mapping       <- TODO section (temporary)
+./contracts/scripts/verify-solhint-disables.mjs:55:  // First pass: find TODO section boundaries
+./contracts/scripts/verify-solhint-disables.mjs:57:    if (lines[i].includes('TODO: Re-enable and fix issues')) {
+./contracts/scripts/verify-solhint-disables.mjs:59:      // Find where TODO section ends (first non-comment line after TODO)
+./contracts/scripts/verify-solhint-disables.mjs:84:    // Categorize based on location relative to TODO section
+./contracts/scripts/verify-solhint-disables.mjs:86:      // No TODO section, or before TODO section
+./contracts/scripts/verify-solhint-disables.mjs:89:      // Within TODO section
+./contracts/scripts/verify-solhint-disables.mjs:92:      // After TODO section - also collect these for verification
+./contracts/scripts/verify-solhint-disables.mjs:127:      // Skip all solhint-disable comments (both pre-TODO and TODO section)
+./contracts/scripts/verify-solhint-disables.mjs:128:      if (line.trim().startsWith('// solhint-disable ') || line.includes('TODO: Re-enable and fix issues')) {
+./contracts/scripts/verify-solhint-disables.mjs:200: * Strategy: Remove unnecessary rules from anywhere, add new rules only to TODO section
+./contracts/scripts/verify-solhint-disables.mjs:204: * @param {string[]} preTodoRules - Array of rules currently in pre-TODO disables
+./contracts/scripts/verify-solhint-disables.mjs:210:  // Calculate which pre-TODO rules to keep (only the ones actually needed)
+./contracts/scripts/verify-solhint-disables.mjs:213:  // Calculate which rules need to go in TODO section (needed but not in pre-TODO)
+./contracts/scripts/verify-solhint-disables.mjs:232:    // Handle TODO section
+./contracts/scripts/verify-solhint-disables.mjs:233:    if (line.includes('TODO: Re-enable and fix issues')) {
+./contracts/scripts/verify-solhint-disables.mjs:235:      continue // Skip TODO comment
+./contracts/scripts/verify-solhint-disables.mjs:239:      continue // Skip old TODO section disables
+./contracts/scripts/verify-solhint-disables.mjs:250:    // Handle pre-TODO disables (any disable not in TODO section): replace with cleaned version
+./contracts/scripts/verify-solhint-disables.mjs:253:        // Add cleaned pre-TODO disable before pragma if we haven't added it yet
+./contracts/scripts/verify-solhint-disables.mjs:261:      // Skip all original pre-TODO disable lines
+./contracts/scripts/verify-solhint-disables.mjs:262:      // If we're removing ALL pre-TODO disables (neededPreTodoRules is empty), also skip the blank line that follows
+./contracts/scripts/verify-solhint-disables.mjs:275:  // Add pre-TODO disables if we didn't find any existing ones but need them
+./contracts/scripts/verify-solhint-disables.mjs:284:  // Add TODO section if needed
+./contracts/scripts/verify-solhint-disables.mjs:296:        '// TODO: Re-enable and fix issues when publishing a new version',
+./contracts/scripts/verify-solhint-disables.mjs:427: * Process all files that need TODO sections
+./contracts/scripts/verify-solhint-disables.mjs:473:      // File has no issues and no TODO section - perfect
+./contracts/scripts/verify-solhint-disables.mjs:478:      // File has no issues but has TODO section - should remove it
+./contracts/scripts/verify-solhint-disables.mjs:481:        console.log(`🔧 ${filePath} - FIXED (removed unnecessary TODO)`)
+./contracts/scripts/verify-solhint-disables.mjs:485:        console.log(`   Should remove TODO section (no issues)`)
+./contracts/scripts/verify-solhint-disables.mjs:510:          console.log(`   Should remove TODO section (no issues)`)
+./contracts/docs/Linting.md:11:- **TODO Check**: Reports TODO/FIXME/XXX/HACK comments in Solidity files (informational)
+./contracts/docs/Linting.md:140:pnpm lint:sol     # TODO check + Solhint + Prettier for Solidity (runs recursively)
+./contracts/docs/Linting.md:170:  - `.sol`: TODO check + Solhint + Prettier
+./contracts/docs/Linting.md:177:## TODO Comment Checking
+./contracts/docs/Linting.md:179:The repository reports TODO comments in Solidity files to help track technical debt:
+./contracts/docs/Linting.md:182:- **Detection**: Finds TODO, FIXME, XXX, and HACK comments (case-insensitive)
+./contracts/docs/Linting.md:195:| TODO Check   | `scripts/check-todos.sh` | N/A                              | N/A                          |
+./contracts/packages/interfaces/contracts/data-service/IDataServiceFees.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/data-service/IDataService.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/toolshed/internal/IProvisionManager.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/token-distribution/IGraphTokenLockWallet.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/horizon/internal/IHorizonStakingMain.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/horizon/internal/IHorizonStakingBase.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/horizon/IAuthorizable.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/l2/token/IL2GraphToken.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/l2/gateway/IL2GraphTokenGateway.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/l2/staking/IL2StakingBase.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/arbitrum/IOutbox.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/arbitrum/IBridge.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/staking/IStakingBase.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/staking/IL1StakingBase.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/interfaces/contracts/contracts/staking/IStakingExtension.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/subgraph-service/test/unit/shared/SubgraphServiceShared.t.sol:107:        // TODO: improve this
+./contracts/packages/subgraph-service/contracts/utilities/Directory.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/subgraph-service/contracts/utilities/AttestationManager.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/subgraph-service/contracts/libraries/Allocation.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/subgraph-service/contracts/libraries/Attestation.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/subgraph-service/contracts/DisputeManager.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts-test/scripts/test:26:# TODO: fix this! For some reason the resolved package does not have a few required files
+./contracts/packages/contracts-test/config/graph.arbitrum-goerli.yml:2:  arbitrator: &arbitrator '0xF89688d5d44d73cc4dE880857A3940487076e5A4' # Arbitration Council (TODO: update)
+./contracts/packages/contracts-test/config/graph.arbitrum-goerli.yml:3:  governor: &governor '0x5CeeeE16F30357d49c50bcd7F520ca6527cf388a' # Graph Council (TODO: update)
+./contracts/packages/contracts-test/config/graph.arbitrum-goerli.yml:5:  availabilityOracle: &availabilityOracle '0xa99a56fa38a6b9553853c84e11458aeccdad509b' # Subgraph Availability Oracle (TODO: update)
+./contracts/packages/contracts-test/config/graph.arbitrum-goerli.yml:6:  pauseGuardian: &pauseGuardian '0x4B6C90B9fE29dfa521188B6547989C23d613b79B' # Protocol pause guardian (TODO: update)
+./contracts/packages/contracts-test/config/graph.arbitrum-goerli.yml:7:  allocationExchangeOwner: &allocationExchangeOwner '0x05F359b1319f1Ca9b799CB6386F31421c2c49dBA' # Allocation Exchange owner (TODO: update)
+./contracts/packages/contracts-test/config/graph.arbitrum-sepolia.yml:2:  arbitrator: &arbitrator '0x1726A5d52e279d02ff4732eCeB2D67BFE5Add328' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts-test/config/graph.arbitrum-sepolia.yml:3:  governor: &governor '0x72ee30d43Fb5A90B3FE983156C5d2fBE6F6d07B3' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts-test/tests/unit/rewards/rewards.test.ts:25:// TODO: Behavior change - HorizonRewardsAssigned is no longer emitted when rewards == 0
+./contracts/packages/contracts-test/tests/unit/rewards/rewards-distribution.test.ts:24:// TODO: Behavior change - HorizonRewardsAssigned is no longer emitted when rewards == 0
+./contracts/packages/contracts-test/tests/unit/rewards/rewards-subgraph-service.test.ts:13:// TODO: Behavior change - HorizonRewardsAssigned is no longer emitted when rewards == 0
+./contracts/packages/contracts-test/tests/unit/lib/gnsUtils.ts:72:  // TODO: properly type this
+./contracts/packages/token-distribution/deploy/6_l2_transfer_tool.ts:46:  // TODO modify this to use upgradeProxy if a deployment already exists?
+./contracts/packages/token-distribution/deploy/4_l1_transfer_tool.ts:58:  // TODO modify this to use upgradeProxy if a deployment already exists?
+./contracts/packages/token-distribution/contracts/GraphTokenLockManager.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/GraphTokenLock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/L2GraphTokenLockTransferTool.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/Ownable.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/L2GraphTokenLockManager.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/GraphTokenLockWallet.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/IGraphTokenLock.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/BridgeMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/WalletMock.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/arbitrum/IMessageProvider.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/arbitrum/IBridge.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/arbitrum/AddressAliasHelper.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/arbitrum/IInbox.sol:28:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/GraphTokenMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/Stakes.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/tests/InboxMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/MathUtils.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/GraphTokenLockSimple.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/L2GraphTokenLockWallet.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/GraphTokenDistributor.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/IGraphTokenLockManager.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/L1GraphTokenLockTransferTool.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/token-distribution/contracts/MinimalProxyFactory.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/test/unit/escrow/getters.t.sol:66:        // TODO: we should modify all tests to consider users have a max balance thats less than max uint256
+./contracts/packages/horizon/contracts/utilities/Authorizable.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/libraries/LinkedList.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/libraries/PPMMath.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/libraries/UintRange.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/data-service/libraries/ProvisionTracker.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/payments/collectors/GraphTallyCollector.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/payments/GraphPayments.sol:4:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/staking/HorizonStakingBase.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/staking/HorizonStakingStorage.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/horizon/contracts/staking/HorizonStaking.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/config/graph.arbitrum-goerli.yml:2:  arbitrator: &arbitrator '0xF89688d5d44d73cc4dE880857A3940487076e5A4' # Arbitration Council (TODO: update)
+./contracts/packages/contracts/config/graph.arbitrum-goerli.yml:3:  governor: &governor '0x5CeeeE16F30357d49c50bcd7F520ca6527cf388a' # Graph Council (TODO: update)
+./contracts/packages/contracts/config/graph.arbitrum-goerli.yml:5:  availabilityOracle: &availabilityOracle '0xa99a56fa38a6b9553853c84e11458aeccdad509b' # Subgraph Availability Oracle (TODO: update)
+./contracts/packages/contracts/config/graph.arbitrum-goerli.yml:6:  pauseGuardian: &pauseGuardian '0x4B6C90B9fE29dfa521188B6547989C23d613b79B' # Protocol pause guardian (TODO: update)
+./contracts/packages/contracts/config/graph.arbitrum-goerli.yml:7:  allocationExchangeOwner: &allocationExchangeOwner '0x05F359b1319f1Ca9b799CB6386F31421c2c49dBA' # Allocation Exchange owner (TODO: update)
+./contracts/packages/contracts/config/graph.arbitrum-sepolia.yml:2:  arbitrator: &arbitrator '0x1726A5d52e279d02ff4732eCeB2D67BFE5Add328' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts/config/graph.arbitrum-sepolia.yml:3:  governor: &governor '0x72ee30d43Fb5A90B3FE983156C5d2fBE6F6d07B3' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts/task/config/graph.arbitrum-goerli.yml:2:  arbitrator: &arbitrator '0xF89688d5d44d73cc4dE880857A3940487076e5A4' # Arbitration Council (TODO: update)
+./contracts/packages/contracts/task/config/graph.arbitrum-goerli.yml:3:  governor: &governor '0x5CeeeE16F30357d49c50bcd7F520ca6527cf388a' # Graph Council (TODO: update)
+./contracts/packages/contracts/task/config/graph.arbitrum-goerli.yml:5:  availabilityOracle: &availabilityOracle '0xa99a56fa38a6b9553853c84e11458aeccdad509b' # Subgraph Availability Oracle (TODO: update)
+./contracts/packages/contracts/task/config/graph.arbitrum-goerli.yml:6:  pauseGuardian: &pauseGuardian '0x4B6C90B9fE29dfa521188B6547989C23d613b79B' # Protocol pause guardian (TODO: update)
+./contracts/packages/contracts/task/config/graph.arbitrum-goerli.yml:7:  allocationExchangeOwner: &allocationExchangeOwner '0x05F359b1319f1Ca9b799CB6386F31421c2c49dBA' # Allocation Exchange owner (TODO: update)
+./contracts/packages/contracts/task/config/graph.arbitrum-sepolia.yml:2:  arbitrator: &arbitrator '0x1726A5d52e279d02ff4732eCeB2D67BFE5Add328' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts/task/config/graph.arbitrum-sepolia.yml:3:  governor: &governor '0x72ee30d43Fb5A90B3FE983156C5d2fBE6F6d07B3' # EOA (TODO: update to a multisig)
+./contracts/packages/contracts/task/src/config.ts:13:// TODO: tidy this up
+./contracts/packages/contracts/task/tasks/migrate/protocol.ts:15:      graph.chainId as GraphChainId, // TODO: fix type
+./contracts/packages/contracts/task/tasks/verify/defender.ts:13:  // TODO: Update this task to use the new OpenZeppelin Defender API or remove it entirely.
+./contracts/packages/contracts/contracts/bancor/BancorFormula.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/upgrades/GraphProxy.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/token/GraphToken.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/token/GraphTokenUpgradeable.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/token/L2GraphToken.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/gateway/L2GraphTokenGateway.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/curation/L2Curation.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/discovery/L2GNSStorage.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/discovery/L2GNS.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/l2/staking/L2Staking.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/libraries/HexStrings.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/libraries/Base58Encoder.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/rewards/SubgraphAvailabilityManager.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/rewards/RewardsManagerStorage.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/gateway/L1GraphTokenGateway.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/base/Multicall.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/curation/CurationStorage.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/curation/Curation.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/disputes/DisputeManagerStorage.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/disputes/DisputeManager.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/payments/AllocationExchange.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/governance/Pausable.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/governance/Controller.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/governance/Managed.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/epochs/EpochManager.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/GovernedMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/arbitrum/BridgeMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/arbitrum/OutboxMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/arbitrum/ArbSysMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/CallhookReceiverMock.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/tests/LegacyGNSMock.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/SubgraphNFT.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/GNSStorage.sol:7:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/GNS.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/erc1056/EthereumDIDRegistry.sol:15:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/ServiceRegistryStorage.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/discovery/L1GNSStorage.sol:3:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/StakingStorage.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/StakingExtension.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/libs/LibFixedMath.sol:23:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/libs/MathUtils.sol:5:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/L1Staking.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/Staking.sol:6:// TODO: Re-enable and fix issues when publishing a new version
+./contracts/packages/contracts/contracts/staking/L1StakingStorage.sol:3:// TODO: Re-enable and fix issues when publishing a new version
