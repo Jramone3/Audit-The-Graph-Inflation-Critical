@@ -6,9 +6,9 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-indexed-events, gas-small-strings, gas-strict-inequalities
 
-import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol";
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
-import { ClonesUpgradeable } from "@openzeppelin/contracts-upgradeable/proxy/ClonesUpgradeable.sol";
+import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/AddressUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
+import { ClonesUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/ClonesUpgradeable.sol";
 
 import { BancorFormula } from "../bancor/BancorFormula.sol";
 import { GraphUpgradeable } from "../upgrades/GraphUpgradeable.sol";

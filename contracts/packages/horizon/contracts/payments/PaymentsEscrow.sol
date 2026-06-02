@@ -7,8 +7,8 @@ import { IGraphToken } from "@graphprotocol/interfaces/contracts/contracts/token
 import { IGraphPayments } from "@graphprotocol/interfaces/contracts/horizon/IGraphPayments.sol";
 import { IPaymentsEscrow } from "@graphprotocol/interfaces/contracts/horizon/IPaymentsEscrow.sol";
 
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
-import { MulticallUpgradeable } from "@openzeppelin/contracts-upgradeable/utils/MulticallUpgradeable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
+import { MulticallUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/MulticallUpgradeable.sol";
 import { TokenUtils } from "@graphprotocol/contracts/contracts/utils/TokenUtils.sol";
 
 import { GraphDirectory } from "../utilities/GraphDirectory.sol";

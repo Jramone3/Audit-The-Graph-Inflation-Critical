@@ -6,7 +6,7 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-indexed-events
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import { Staking } from "../../staking/Staking.sol";
 import { IL2StakingBase } from "@graphprotocol/interfaces/contracts/contracts/l2/staking/IL2StakingBase.sol";
 import { Stakes } from "../../staking/libs/Stakes.sol";

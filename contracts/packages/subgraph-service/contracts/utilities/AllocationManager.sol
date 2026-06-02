@@ -10,7 +10,7 @@ import { GraphDirectory } from "@graphprotocol/horizon/contracts/utilities/Graph
 import { AllocationManagerV1Storage } from "./AllocationManagerStorage.sol";
 
 import { TokenUtils } from "@graphprotocol/contracts/contracts/utils/TokenUtils.sol";
-import { EIP712Upgradeable } from "@openzeppelin/contracts-upgradeable/utils/cryptography/EIP712Upgradeable.sol";
+import { EIP712Upgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/cryptography/EIP712Upgradeable.sol";
 import { Allocation } from "../libraries/Allocation.sol";
 import { LegacyAllocation } from "../libraries/LegacyAllocation.sol";
 import { PPMMath } from "@graphprotocol/horizon/contracts/libraries/PPMMath.sol";

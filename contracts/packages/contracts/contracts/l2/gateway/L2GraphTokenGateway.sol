@@ -6,8 +6,8 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-indexed-events
 
-import { ReentrancyGuardUpgradeable } from "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import { ReentrancyGuardUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/ReentrancyGuardUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
 
 import { L2ArbitrumMessenger } from "../../arbitrum/L2ArbitrumMessenger.sol";
 import { AddressAliasHelper } from "../../arbitrum/AddressAliasHelper.sol";

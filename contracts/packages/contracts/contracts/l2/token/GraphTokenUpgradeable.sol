@@ -6,8 +6,8 @@ pragma solidity ^0.7.6;
 // solhint-disable gas-increment-by-one, gas-small-strings, gas-strict-inequalities
 // solhint-disable named-parameters-mapping
 
-import { ERC20BurnableUpgradeable } from "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20BurnableUpgradeable.sol";
-import { ECDSAUpgradeable } from "@openzeppelin/contracts-upgradeable/cryptography/ECDSAUpgradeable.sol";
+import { ERC20BurnableUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/token/ERC20/ERC20BurnableUpgradeable.sol";
+import { ECDSAUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/cryptography/ECDSAUpgradeable.sol";
 
 import { GraphUpgradeable } from "../../upgrades/GraphUpgradeable.sol";
 import { Governed } from "../../governance/Governed.sol";

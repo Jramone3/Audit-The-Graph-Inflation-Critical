@@ -6,7 +6,7 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-strict-inequalities
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import { StakingV4Storage } from "./StakingStorage.sol";
 import { IStakingExtension } from "@graphprotocol/interfaces/contracts/contracts/staking/IStakingExtension.sol";
 import { TokenUtils } from "../utils/TokenUtils.sol";

@@ -3,30 +3,22 @@ pragma solidity ^0.8.19;
 
 import "forge-std/Test.sol";
 
-// Interfaz mínima del contrato vulnerable para la PoC
+// DEFINIMOS SOLO LA INTERFAZ, NO IMPORTAMOS EL ARCHIVO .SOL ANTIGUO
 interface IL1GraphTokenGateway {
-    function mint(address _to, uint256 _amount) external;
+    function initialize(address _controller) external;
     function setL2MintAllowance(uint256 _allowance) external;
+    function mint(address _to, uint256 _amount) external;
+    function l1Token() external view returns (address);
 }
 
 contract InflationPoC is Test {
     IL1GraphTokenGateway public gateway;
-    
-    function setUp() public {
-        // Aquí desplegaremos o haremos un etch del contrato vulnerable
-        // gateway = IL1GraphTokenGateway(0x...); 
-    }
+    address public controller = address(0x1337);
 
-    function testInflationVulnerability() public {
-        uint256 initialSupply = 10000000000;
-        
-        // Simular el error de desincronización que detectaste
-        gateway.setL2MintAllowance(9999999999);
-        
-        // Ejecutar el mint descontrolado
-        gateway.mint(address(this), 5000000000);
-        
-        // Assert: El suministro final debe ser superior al esperado
-        assertGt(gateway.totalSupply(), initialSupply);
+    function setUp() public {
+        // En lugar de 'new L1GraphTokenGateway()', 
+        // desplegamos el bytecode directamente o usamos un mock
+        // Por ahora, asumiremos la dirección donde está el contrato
+        gateway = IL1GraphTokenGateway(0x...); // Si tienes la address, úsala
     }
 }

@@ -3,7 +3,7 @@
 pragma solidity ^0.7.6;
 pragma abicoder v2;
 
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
 
 import { GNS } from "./GNS.sol";
 

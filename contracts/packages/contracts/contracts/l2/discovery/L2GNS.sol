@@ -6,7 +6,7 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-indexed-events, gas-small-strings, gas-strict-inequalities
 
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
 
 import { GNS } from "../../discovery/GNS.sol";
 import { ICuration } from "@graphprotocol/interfaces/contracts/contracts/curation/ICuration.sol";

@@ -2,7 +2,7 @@
 
 pragma solidity ^0.7.6;
 
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
 
 import { GraphUpgradeable } from "../upgrades/GraphUpgradeable.sol";
 import { Managed } from "../governance/Managed.sol";

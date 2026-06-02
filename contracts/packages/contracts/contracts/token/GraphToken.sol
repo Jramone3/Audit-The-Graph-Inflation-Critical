@@ -9,7 +9,7 @@ pragma solidity ^0.7.6;
 import { ERC20 } from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import { ERC20Burnable } from "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import { ECDSA } from "@openzeppelin/contracts/cryptography/ECDSA.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 import { Governed } from "../governance/Governed.sol";
 

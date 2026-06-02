@@ -18,8 +18,8 @@ import { PPMMath } from "@graphprotocol/horizon/contracts/libraries/PPMMath.sol"
 import { Math } from "@openzeppelin/contracts/utils/math/Math.sol";
 import { Attestation } from "./libraries/Attestation.sol";
 
-import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
 import { GraphDirectory } from "@graphprotocol/horizon/contracts/utilities/GraphDirectory.sol";
 import { DisputeManagerV1Storage } from "./DisputeManagerStorage.sol";
 import { AttestationManager } from "./utilities/AttestationManager.sol";

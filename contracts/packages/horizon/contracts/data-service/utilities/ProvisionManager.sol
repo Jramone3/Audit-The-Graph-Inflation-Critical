@@ -9,7 +9,7 @@ import { IHorizonStaking } from "@graphprotocol/interfaces/contracts/horizon/IHo
 import { UintRange } from "../../libraries/UintRange.sol";
 import { PPMMath } from "../../libraries/PPMMath.sol";
 
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
 import { GraphDirectory } from "../../utilities/GraphDirectory.sol";
 import { ProvisionManagerV1Storage } from "./ProvisionManagerStorage.sol";
 

@@ -11,7 +11,7 @@ import { BaseUpgradeable } from "../common/BaseUpgradeable.sol";
 import { IGraphToken } from "../common/IGraphToken.sol";
 
 // solhint-disable-next-line no-unused-import
-import { ERC165Upgradeable } from "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol"; // Used by @inheritdoc
+import { ERC165Upgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/introspection/ERC165Upgradeable.sol"; // Used by @inheritdoc
 
 /**
  * @title DirectAllocation

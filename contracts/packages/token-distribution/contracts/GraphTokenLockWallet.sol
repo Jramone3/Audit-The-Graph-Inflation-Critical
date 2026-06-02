@@ -7,7 +7,7 @@ pragma experimental ABIEncoderV2;
 // solhint-disable use-natspec, gas-increment-by-one, gas-strict-inequalities, gas-small-strings
 
 import { Address } from "@openzeppelin/contracts/utils/Address.sol";
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 import { GraphTokenLock } from "./GraphTokenLock.sol";
 import { IGraphTokenLock } from "./IGraphTokenLock.sol";

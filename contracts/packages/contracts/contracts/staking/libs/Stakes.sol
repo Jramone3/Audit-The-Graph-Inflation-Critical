@@ -3,7 +3,7 @@
 pragma solidity ^0.7.6;
 pragma abicoder v2;
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 import { MathUtils } from "./MathUtils.sol";
 import { IStakes } from "@graphprotocol/interfaces/contracts/contracts/staking/libs/IStakes.sol";

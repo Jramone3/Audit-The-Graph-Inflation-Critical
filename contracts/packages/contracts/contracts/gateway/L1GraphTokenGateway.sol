@@ -7,9 +7,9 @@ pragma abicoder v2;
 // solhint-disable gas-indexed-events, gas-strict-inequalities
 // solhint-disable named-parameters-mapping
 
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
-import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol";
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
+import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/AddressUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
 
 import { L1ArbitrumMessenger } from "../arbitrum/L1ArbitrumMessenger.sol";
 import { IBridge } from "@graphprotocol/interfaces/contracts/contracts/arbitrum/IBridge.sol";

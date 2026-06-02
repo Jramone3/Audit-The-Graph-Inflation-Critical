@@ -3,7 +3,7 @@
 pragma solidity ^0.7.6;
 pragma abicoder v2;
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import { IERC165 } from "@openzeppelin/contracts/introspection/IERC165.sol";
 
 import { GraphUpgradeable } from "../upgrades/GraphUpgradeable.sol";

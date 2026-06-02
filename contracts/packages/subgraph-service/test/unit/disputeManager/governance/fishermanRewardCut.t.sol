@@ -3,7 +3,7 @@ pragma solidity ^0.8.27;
 
 import { IDisputeManager } from "@graphprotocol/interfaces/contracts/subgraph-service/IDisputeManager.sol";
 import { DisputeManagerTest } from "../DisputeManager.t.sol";
-import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
 
 contract DisputeManagerGovernanceFishermanRewardCutTest is DisputeManagerTest {
     /*

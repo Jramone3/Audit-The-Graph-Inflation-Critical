@@ -3,7 +3,7 @@ pragma solidity ^0.8.27;
 
 import { ISubgraphService } from "@graphprotocol/interfaces/contracts/subgraph-service/ISubgraphService.sol";
 import { SubgraphServiceTest } from "../SubgraphService.t.sol";
-import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import { OwnableUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
 contract SubgraphServiceGovernanceCurationCutTest is SubgraphServiceTest {
     /*
      * TESTS

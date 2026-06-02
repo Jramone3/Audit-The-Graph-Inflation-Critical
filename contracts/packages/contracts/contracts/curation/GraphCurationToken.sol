@@ -2,7 +2,7 @@
 
 pragma solidity ^0.7.6;
 
-import { ERC20Upgradeable } from "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+import { ERC20Upgradeable } from "@openzeppelin/contracts-upgradeable/contracts/token/ERC20/ERC20Upgradeable.sol";
 
 import { Governed } from "../governance/Governed.sol";
 

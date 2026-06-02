@@ -6,7 +6,7 @@ pragma experimental ABIEncoderV2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable use-natspec
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 /**
  * @title A collection of data structures and functions to manage the Indexer Stake state.

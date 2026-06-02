@@ -6,8 +6,8 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable function-max-lines, gas-indexed-events, gas-small-strings, gas-strict-inequalities
 
-import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
-import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol";
+import { SafeMathUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/math/SafeMathUpgradeable.sol";
+import { AddressUpgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/AddressUpgradeable.sol";
 
 import { Multicall } from "../base/Multicall.sol";
 import { GraphUpgradeable } from "../upgrades/GraphUpgradeable.sol";

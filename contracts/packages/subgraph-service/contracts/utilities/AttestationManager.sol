@@ -11,7 +11,7 @@ import { IAttestation } from "@graphprotocol/interfaces/contracts/subgraph-servi
 import { AttestationManagerV1Storage } from "./AttestationManagerStorage.sol";
 
 import { ECDSA } from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
 
 /**
  * @title AttestationManager contract

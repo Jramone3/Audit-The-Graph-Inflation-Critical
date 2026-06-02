@@ -5,7 +5,7 @@ pragma solidity ^0.7.6;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable function-max-lines, gas-increment-by-one, gas-strict-inequalities
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 /**
  * @title Bancor Formula Contract

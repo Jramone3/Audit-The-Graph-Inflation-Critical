@@ -20,7 +20,7 @@ import { ReentrancyGuardTransient } from "@openzeppelin/contracts/utils/Reentran
 import { IERC165 } from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 
 // solhint-disable-next-line no-unused-import
-import { ERC165Upgradeable } from "@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol"; // Used by @inheritdoc
+import { ERC165Upgradeable } from "@openzeppelin/contracts-upgradeable/contracts/utils/introspection/ERC165Upgradeable.sol"; // Used by @inheritdoc
 
 /**
  * @title IssuanceAllocator

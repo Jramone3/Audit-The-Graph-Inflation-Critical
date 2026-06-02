@@ -6,7 +6,7 @@ pragma abicoder v2;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable gas-small-strings, gas-strict-inequalities
 
-import { SafeMath } from "@openzeppelin/contracts/math/SafeMath.sol";
+import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import { ECDSA } from "@openzeppelin/contracts/cryptography/ECDSA.sol";
 
 import { Managed } from "../governance/Managed.sol";

@@ -6,7 +6,7 @@ pragma solidity ^0.7.6;
 // TODO: Re-enable and fix issues when publishing a new version
 // solhint-disable named-parameters-mapping
 
-import { Initializable } from "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
+import { Initializable } from "@openzeppelin/contracts-upgradeable/contracts/proxy/Initializable.sol";
 
 import { ICuration } from "@graphprotocol/interfaces/contracts/contracts/curation/ICuration.sol";
 import { IGraphCurationToken } from "@graphprotocol/interfaces/contracts/contracts/curation/IGraphCurationToken.sol";
