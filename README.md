@@ -34,7 +34,9 @@ Este análisis ha sido posible gracias a la recopilación de datos de fuentes de
 - **Metodología:** Integración de herramientas de escaneo REMI (sda5) con inteligencia colectiva del ecosistema Web3.
 
 ### 📜 Certificación Notarial Digital (RNC-01)
-- **Hash de Auditoría (SHA256):** `ed61d66acae6158bea15558bc1195afc3c54e7ffa4d92a1fdbe98667f73020ab`
-- **Registro en Blockchain:** Contrato RNC-Notary-Immunefi (Base)
-- **Dirección del Notario:** `0x6043370c0e2a5209e8193aba850145d89cda9ea0`
-- **Transacción de Sellado:** `0xb7d522deeb5153e9561217031b4133fe542013664cce940531ad310993a775c1`
+Este activo ha sido registrado y sellado en la blockchain de **Base (L2)**, garantizando su inmutabilidad, autoría y fecha de descubrimiento.
+
+* **Hash de Auditoría (SHA256):** `ed61d66acae6158bea15558bc1195afc3c54e7ffa4d92a1fdbe98667f73020ab`
+* **Contrato de Notaría (Base Mainnet):** [0x6043370c0e2a5209e8193aba850145d89cda9ea0](https://basescan.org/address/0x6043370c0e2a5209e8193aba850145d89cda9ea0)
+* **Transacción de Sellado (Proof of Existence):** [0xd8f6696b2a4582c2786d6475333d21faddd84637c4ed98704cfa776070701e19](https://basescan.org/tx/0xd8f6696b2a4582c2786d6475333d21faddd84637c4ed98704cfa776070701e19)
+* **Estado de la Auditoría:** ✅ REGISTRADA / SELLADA
